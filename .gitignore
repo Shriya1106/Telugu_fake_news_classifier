@@ -34,3 +34,19 @@ flagged/
 
 # Misc
 .kiro/
+
+# Large model files
+telugu-fake-news-model/model.safetensors
+telugu-fake-news-model/tokenizer.json
+
+# Large datasets
+data/*.csv
+
+# Cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Results
+results/checkpoints/
+
