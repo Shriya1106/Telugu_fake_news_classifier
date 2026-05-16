@@ -1,0 +1,29 @@
+{
+  "_NOTE": "Model needs retraining on the new 3-class dataset. Run `python -m src.train` or use notebooks/Telugu_Fake_News_Training_Colab.ipynb",
+  "status": "NEEDS_RETRAINING",
+  "model_info": {
+    "model_name": "google/muril-base-cased",
+    "num_labels": 3,
+    "label_mapping": {
+      "0": "Real",
+      "1": "Fake",
+      "2": "Unverifiable"
+    }
+  },
+  "dataset_info": {
+    "train_samples": 92539,
+    "val_samples": 23135,
+    "class_distribution": {
+      "Real": 38558,
+      "Fake": 38558,
+      "Unverifiable": 38558
+    }
+  },
+  "final_metrics": {
+    "accuracy": null,
+    "f1_score": null,
+    "precision": null,
+    "recall": null,
+    "training_loss": null
+  }
+}

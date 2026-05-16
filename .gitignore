@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Model files (too large for git)
+telugu-fake-news-model/model.safetensors
+telugu-fake-news-model/tokenizer.json
+
+# Data files (large CSVs)
+data/train.csv
+data/val.csv
+data/indicglue_telugu.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Gradio
+flagged/
+
+# Misc
+.kiro/

@@ -1,0 +1,20 @@
+{
+  "total_samples": 115674,
+  "train_samples": 92539,
+  "val_samples": 23135,
+  "class_distribution": {
+    "Real": 38558,
+    "Fake": 38558,
+    "Unverifiable": 38558
+  },
+  "sources": {
+    "IndicGLUE (Real)": 38558,
+    "Synthetic (Fake)": 38558,
+    "Synthetic (Unverifiable)": 38558
+  },
+  "avg_text_length": 194.2460276293722,
+  "min_text_length": 44,
+  "max_text_length": 1068,
+  "balance_strategy": "resample-to-Real-count (replace=True for small pools)",
+  "split_ratio": "80/20 stratified"
+}
